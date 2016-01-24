@@ -10,7 +10,7 @@ import UIKit
 import SpriteKit
 
 class GameViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -30,17 +30,13 @@ class GameViewController: UIViewController {
         }
     }
 
-    override func shouldAutorotate() -> Bool {
-        return true
+    /*override func shouldAutorotate() -> Bool {
+        return false
     }
 
     override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        if UIDevice.currentDevice().userInterfaceIdiom == .Phone {
-            return .AllButUpsideDown
-        } else {
-            return .All
-        }
-    }
+        return .LandscapeLeft
+    }*/
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

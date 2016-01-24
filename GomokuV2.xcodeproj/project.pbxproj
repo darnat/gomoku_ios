@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A720C2011C53A9D400A636BE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A720C1F11C53A9D400A636BE /* .gitignore */; };
+		A720C2021C53A9D400A636BE /* board.c in Sources */ = {isa = PBXBuildFile; fileRef = A720C1F91C53A9D400A636BE /* board.c */; };
+		A720C2031C53A9D400A636BE /* pawn.c in Sources */ = {isa = PBXBuildFile; fileRef = A720C1FA1C53A9D400A636BE /* pawn.c */; };
+		A720C2041C53A9D400A636BE /* referee.c in Sources */ = {isa = PBXBuildFile; fileRef = A720C1FB1C53A9D400A636BE /* referee.c */; };
+		A720C2051C53A9D400A636BE /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = A720C1FC1C53A9D400A636BE /* socket.c */; };
+		A720C2061C53A9D400A636BE /* team.c in Sources */ = {isa = PBXBuildFile; fileRef = A720C1FE1C53A9D400A636BE /* team.c */; };
+		A720C2071C53A9D400A636BE /* tree.c in Sources */ = {isa = PBXBuildFile; fileRef = A720C1FF1C53A9D400A636BE /* tree.c */; };
+		A720C2081C53A9D400A636BE /* value.c in Sources */ = {isa = PBXBuildFile; fileRef = A720C2001C53A9D400A636BE /* value.c */; };
 		A741CB4F1C4D844900985E4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A741CB4E1C4D844900985E4F /* AppDelegate.swift */; };
 		A741CB511C4D844900985E4F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A741CB501C4D844900985E4F /* GameScene.sks */; };
 		A741CB531C4D844900985E4F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A741CB521C4D844900985E4F /* GameScene.swift */; };
@@ -16,6 +24,10 @@
 		A741CB5D1C4D844900985E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A741CB5B1C4D844900985E4F /* LaunchScreen.storyboard */; };
 		A741CB681C4D844900985E4F /* GomokuV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A741CB671C4D844900985E4F /* GomokuV2Tests.swift */; };
 		A741CB731C4D844900985E4F /* GomokuV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A741CB721C4D844900985E4F /* GomokuV2UITests.swift */; };
+		A741CB811C4D98A500985E4F /* SoloScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A741CB801C4D98A500985E4F /* SoloScene.swift */; };
+		A76087D21C53AA8D0074D6DE /* IAScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76087D11C53AA8D0074D6DE /* IAScene.swift */; };
+		A789711A1C516B5700909DCD /* MulitScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78971191C516B5700909DCD /* MulitScene.swift */; };
+		A7C1CBC71C4E704A0019DBBD /* PawnSpriteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C1CBC61C4E704A0019DBBD /* PawnSpriteNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +48,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A741CB4B1C4D844800985E4F /* GomokuV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GomokuV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A720C1F11C53A9D400A636BE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A720C1F31C53A9D400A636BE /* board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = board.h; sourceTree = "<group>"; };
+		A720C1F41C53A9D400A636BE /* struct_board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = struct_board.h; sourceTree = "<group>"; };
+		A720C1F51C53A9D400A636BE /* struct_pawn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = struct_pawn.h; sourceTree = "<group>"; };
+		A720C1F61C53A9D400A636BE /* struct_team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = struct_team.h; sourceTree = "<group>"; };
+		A720C1F71C53A9D400A636BE /* struct_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = struct_tree.h; sourceTree = "<group>"; };
+		A720C1F91C53A9D400A636BE /* board.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = board.c; sourceTree = "<group>"; };
+		A720C1FA1C53A9D400A636BE /* pawn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pawn.c; sourceTree = "<group>"; };
+		A720C1FB1C53A9D400A636BE /* referee.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = referee.c; sourceTree = "<group>"; };
+		A720C1FC1C53A9D400A636BE /* socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socket.c; sourceTree = "<group>"; };
+		A720C1FD1C53A9D400A636BE /* socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = socket.h; path = ../sources/socket.h; sourceTree = "<group>"; };
+		A720C1FE1C53A9D400A636BE /* team.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = team.c; sourceTree = "<group>"; };
+		A720C1FF1C53A9D400A636BE /* tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tree.c; sourceTree = "<group>"; };
+		A720C2001C53A9D400A636BE /* value.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = value.c; sourceTree = "<group>"; };
 		A741CB4E1C4D844900985E4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A741CB501C4D844900985E4F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		A741CB521C4D844900985E4F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -45,12 +70,18 @@
 		A741CB591C4D844900985E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A741CB5C1C4D844900985E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A741CB5E1C4D844900985E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A741CB631C4D844900985E4F /* GomokuV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomokuV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A741CB671C4D844900985E4F /* GomokuV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomokuV2Tests.swift; sourceTree = "<group>"; };
 		A741CB691C4D844900985E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A741CB6E1C4D844900985E4F /* GomokuV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomokuV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A741CB721C4D844900985E4F /* GomokuV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomokuV2UITests.swift; sourceTree = "<group>"; };
 		A741CB741C4D844900985E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A741CB801C4D98A500985E4F /* SoloScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoloScene.swift; sourceTree = "<group>"; };
+		A76087D11C53AA8D0074D6DE /* IAScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAScene.swift; sourceTree = "<group>"; };
+		A78971191C516B5700909DCD /* MulitScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulitScene.swift; sourceTree = "<group>"; };
+		A7C1CBC61C4E704A0019DBBD /* PawnSpriteNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PawnSpriteNode.swift; sourceTree = "<group>"; };
+		A7D4C0211C4E945C00D037AC /* GomokuV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GomokuV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D4C0221C4E945C00D037AC /* GomokuV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomokuV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D4C0231C4E945C00D037AC /* GomokuV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomokuV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D4C0381C4E94E600D037AC /* GomokuV2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GomokuV2-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,37 +109,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A720C1F01C53A9D400A636BE /* gomoku_ai */ = {
+			isa = PBXGroup;
+			children = (
+				A720C1F11C53A9D400A636BE /* .gitignore */,
+				A720C1F21C53A9D400A636BE /* headers */,
+				A720C1F81C53A9D400A636BE /* sources */,
+			);
+			path = gomoku_ai;
+			sourceTree = "<group>";
+		};
+		A720C1F21C53A9D400A636BE /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				A720C1FD1C53A9D400A636BE /* socket.h */,
+				A720C1F31C53A9D400A636BE /* board.h */,
+				A720C1F41C53A9D400A636BE /* struct_board.h */,
+				A720C1F51C53A9D400A636BE /* struct_pawn.h */,
+				A720C1F61C53A9D400A636BE /* struct_team.h */,
+				A720C1F71C53A9D400A636BE /* struct_tree.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		A720C1F81C53A9D400A636BE /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				A720C1F91C53A9D400A636BE /* board.c */,
+				A720C1FA1C53A9D400A636BE /* pawn.c */,
+				A720C1FB1C53A9D400A636BE /* referee.c */,
+				A720C1FC1C53A9D400A636BE /* socket.c */,
+				A720C1FE1C53A9D400A636BE /* team.c */,
+				A720C1FF1C53A9D400A636BE /* tree.c */,
+				A720C2001C53A9D400A636BE /* value.c */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
 		A741CB421C4D844800985E4F = {
 			isa = PBXGroup;
 			children = (
 				A741CB4D1C4D844900985E4F /* GomokuV2 */,
 				A741CB661C4D844900985E4F /* GomokuV2Tests */,
 				A741CB711C4D844900985E4F /* GomokuV2UITests */,
-				A741CB4C1C4D844800985E4F /* Products */,
+				A7D4C0211C4E945C00D037AC /* GomokuV2.app */,
+				A7D4C0221C4E945C00D037AC /* GomokuV2Tests.xctest */,
+				A7D4C0231C4E945C00D037AC /* GomokuV2UITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		A741CB4C1C4D844800985E4F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A741CB4B1C4D844800985E4F /* GomokuV2.app */,
-				A741CB631C4D844900985E4F /* GomokuV2Tests.xctest */,
-				A741CB6E1C4D844900985E4F /* GomokuV2UITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A741CB4D1C4D844900985E4F /* GomokuV2 */ = {
 			isa = PBXGroup;
 			children = (
+				A720C1F01C53A9D400A636BE /* gomoku_ai */,
 				A741CB4E1C4D844900985E4F /* AppDelegate.swift */,
 				A741CB501C4D844900985E4F /* GameScene.sks */,
 				A741CB521C4D844900985E4F /* GameScene.swift */,
 				A741CB541C4D844900985E4F /* GameViewController.swift */,
 				A741CB561C4D844900985E4F /* Main.storyboard */,
-				A741CB591C4D844900985E4F /* Assets.xcassets */,
+				A79B1B4A1C4EC2A800D37797 /* resources */,
 				A741CB5B1C4D844900985E4F /* LaunchScreen.storyboard */,
 				A741CB5E1C4D844900985E4F /* Info.plist */,
+				A741CB801C4D98A500985E4F /* SoloScene.swift */,
+				A7C1CBC61C4E704A0019DBBD /* PawnSpriteNode.swift */,
+				A7D4C0381C4E94E600D037AC /* GomokuV2-Bridging-Header.h */,
+				A78971191C516B5700909DCD /* MulitScene.swift */,
+				A76087D11C53AA8D0074D6DE /* IAScene.swift */,
 			);
 			path = GomokuV2;
 			sourceTree = "<group>";
@@ -131,6 +197,22 @@
 			path = GomokuV2UITests;
 			sourceTree = "<group>";
 		};
+		A79B1B4A1C4EC2A800D37797 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				A79B1B4B1C4EC2BB00D37797 /* audio */,
+				A741CB591C4D844900985E4F /* Assets.xcassets */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		A79B1B4B1C4EC2BB00D37797 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,7 +230,7 @@
 			);
 			name = GomokuV2;
 			productName = GomokuV2;
-			productReference = A741CB4B1C4D844800985E4F /* GomokuV2.app */;
+			productReference = A7D4C0211C4E945C00D037AC /* GomokuV2.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A741CB621C4D844900985E4F /* GomokuV2Tests */ = {
@@ -166,7 +248,7 @@
 			);
 			name = GomokuV2Tests;
 			productName = GomokuV2Tests;
-			productReference = A741CB631C4D844900985E4F /* GomokuV2Tests.xctest */;
+			productReference = A7D4C0221C4E945C00D037AC /* GomokuV2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		A741CB6D1C4D844900985E4F /* GomokuV2UITests */ = {
@@ -184,7 +266,7 @@
 			);
 			name = GomokuV2UITests;
 			productName = GomokuV2UITests;
-			productReference = A741CB6E1C4D844900985E4F /* GomokuV2UITests.xctest */;
+			productReference = A7D4C0231C4E945C00D037AC /* GomokuV2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +301,7 @@
 				Base,
 			);
 			mainGroup = A741CB421C4D844800985E4F;
-			productRefGroup = A741CB4C1C4D844800985E4F /* Products */;
+			productRefGroup = A741CB421C4D844800985E4F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -235,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A720C2011C53A9D400A636BE /* .gitignore in Resources */,
 				A741CB511C4D844900985E4F /* GameScene.sks in Resources */,
 				A741CB5D1C4D844900985E4F /* LaunchScreen.storyboard in Resources */,
 				A741CB5A1C4D844900985E4F /* Assets.xcassets in Resources */,
@@ -263,7 +346,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A720C2081C53A9D400A636BE /* value.c in Sources */,
+				A720C2061C53A9D400A636BE /* team.c in Sources */,
+				A76087D21C53AA8D0074D6DE /* IAScene.swift in Sources */,
+				A789711A1C516B5700909DCD /* MulitScene.swift in Sources */,
+				A720C2041C53A9D400A636BE /* referee.c in Sources */,
+				A720C2071C53A9D400A636BE /* tree.c in Sources */,
 				A741CB531C4D844900985E4F /* GameScene.swift in Sources */,
+				A7C1CBC71C4E704A0019DBBD /* PawnSpriteNode.swift in Sources */,
+				A720C2051C53A9D400A636BE /* socket.c in Sources */,
+				A720C2021C53A9D400A636BE /* board.c in Sources */,
+				A741CB811C4D98A500985E4F /* SoloScene.swift in Sources */,
+				A720C2031C53A9D400A636BE /* pawn.c in Sources */,
 				A741CB551C4D844900985E4F /* GameViewController.swift in Sources */,
 				A741CB4F1C4D844900985E4F /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +505,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.darnat.GomokuV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GomokuV2/GomokuV2-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -422,6 +517,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.darnat.GomokuV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GomokuV2/GomokuV2-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -494,6 +590,7 @@
 				A741CB791C4D844900985E4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A741CB7A1C4D844900985E4F /* Build configuration list for PBXNativeTarget "GomokuV2Tests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +599,7 @@
 				A741CB7C1C4D844900985E4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A741CB7D1C4D844900985E4F /* Build configuration list for PBXNativeTarget "GomokuV2UITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +608,7 @@
 				A741CB7F1C4D844900985E4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
